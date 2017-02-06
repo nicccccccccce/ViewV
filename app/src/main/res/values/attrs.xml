@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ViewPhotoTest">
+        <attr name="leftMargin" format="dimension" />
+        <attr name="rightMargin" format="dimension" />
+        <attr name="topMargin" format="dimension" />
+        <attr name="bottomMargin" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="RoundProgressView">
+        <attr name="radius" format="integer" />
+        <attr name="backGroundColor" format="color" />
+        <attr name="roundBgColor" format="color" />
+        <attr name="strokeWidth" format="integer" />
+        <attr name="strokeColor" format="color" />
+        <attr name="textSize" format="integer" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="MixDaDaTextView">
+        <attr name="drawableLeft" format="reference" />
+        <attr name="drawableTop" format="reference" />
+        <attr name="drawableRight" format="reference" />
+        <attr name="drawableBottom" format="reference" />
+        <attr name="textMixSize" format="dimension" />
+        <attr name="textMixColor" format="color" />
+        <attr name="textMix" format="string" />
+        <attr name="rx" format="dimension" />
+        <attr name="ry" format="dimension" />
+        <attr name="space" format="dimension" />
+    </declare-styleable>
+</resources>

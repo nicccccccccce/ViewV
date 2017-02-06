@@ -1,0 +1,224 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:fitsSystemWindows="true"
+        android:clipToPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="#009959"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/bg_shadow"/>
+    </LinearLayout>
+
+
+    <com.sino.bridge.viewv.ViewTest
+        android:id="@+id/vt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#ff66ff"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已是" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="对对对" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已是" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已是多喝点" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已是多" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已是多" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已是多" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已是多" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已是" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="对对对" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已是" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已是多喝点" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已是多" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已是多" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已是多" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_cloud"
+            android:text="已是多" />
+    </com.sino.bridge.viewv.ViewTest>
+
+    <com.sino.bridge.viewv.ViewPhotoTest xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/vt"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/black"
+            app:bottomMargin="@dimen/activity_horizontal_margin"
+            app:leftMargin="@dimen/activity_horizontal_margin"
+            app:rightMargin="@dimen/activity_horizontal_margin"
+            app:topMargin="@dimen/activity_horizontal_margin"
+
+            />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/black"
+            app:bottomMargin="@dimen/activity_horizontal_margin"
+            app:leftMargin="@dimen/activity_horizontal_margin"
+            app:rightMargin="@dimen/activity_horizontal_margin"
+            app:topMargin="@dimen/activity_horizontal_margin" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/black"
+            app:bottomMargin="@dimen/activity_horizontal_margin"
+            app:leftMargin="@dimen/activity_horizontal_margin"
+            app:rightMargin="@dimen/activity_horizontal_margin"
+            app:topMargin="@dimen/activity_horizontal_margin" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/black"
+            app:bottomMargin="@dimen/activity_horizontal_margin"
+            app:leftMargin="@dimen/activity_horizontal_margin"
+            app:rightMargin="@dimen/activity_horizontal_margin"
+            app:topMargin="@dimen/activity_horizontal_margin" />
+    </com.sino.bridge.viewv.ViewPhotoTest>
+
+    <com.sino.bridge.viewv.RoundProgressView
+        android:id="@+id/roundp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        app:backGroundColor="#ff66ff"
+        app:radius="30" />
+
+    <com.sino.bridge.viewv.PayResultView
+        android:layout_width="50dp"
+        android:layout_height="250dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bg_cloud" />
+
+    <com.sino.bridge.viewv.MixDaDaTextView
+        android:id="@+id/mix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/roundp"
+        android:layout_centerVertical="true"
+        android:background="#FFFFFF"
+        app:drawableLeft="@mipmap/ic_gou"
+        app:drawableRight="@mipmap/ic_gou"
+        app:drawableBottom="@mipmap/ic_refresh"
+        app:drawableTop="@mipmap/ic_refresh"
+        app:rx="40dp"
+        app:ry="40dp"
+        app:textMixColor="#000000"
+        app:textMixSize="16dp"
+        app:textMix="爱丫呦"
+        />
+</RelativeLayout>
